@@ -1,7 +1,7 @@
 <?php
 
-$local = “SENAI.”;
+$local = "SENAI.";
 
-echo “<p>Aprendendo PHP no $local</p>”;
+echo "<p>Aprendendo PHP no $local</p>";
 
 ?>
