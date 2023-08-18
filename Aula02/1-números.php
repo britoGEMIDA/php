@@ -41,7 +41,7 @@
     <?php
 
         if(is_int(5)) { // true}
-            echo "É um inteiro <br>";
+            echo "É um inteiro 3 <br>";
             }
 
             if(is_int("Não é um inteiro")) { // false
@@ -84,6 +84,26 @@
     <p>Para saber se um número ou variável é flutuante usamos a função is_float()</p>
 
     <!-- Código PHP para verificação de float -->
+    <?php
+
+    $a = "teste";
+    $b = 12.8;
+
+    if(is_float ($a)) {
+        echo "É float 1! <br>";
+    }
+    if(is_float ($b)) {
+        echo "É float 2! <br>";
+    }
+    if(is_float (6565.63)) {
+        echo "É float 3! <br>";
+    }
+    if(is_float ("teste")) {
+        echo "É float 4! <br>";
+    }
+
+?>
+    
     
 
 
