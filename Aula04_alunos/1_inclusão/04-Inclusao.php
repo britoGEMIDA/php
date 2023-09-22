@@ -1,4 +1,5 @@
 <!-- Fazendo a inclusão de um arquivo de programação -->
+<?php include "recursos.php"?>
 
 <!-- 1ª Digitação (Aqui) -->
 
@@ -20,11 +21,14 @@
 
         <!-- Recuperando o conteúdo da string Escola (que é Senai) definido em "recursos.php" -->
 
+        <h2 class="destaque><?=ESCOL?></h2>
         <!-- 2ª Digitação (Aqui) -->
 
         <!-- Recuperando o conteúdo da variável $curso definida em "recursos.php" -->
 
-        <!-- 3ª Digitação (Aqui) -->
+        <p>Estamos fazendo o curso de <?=$curso?></p>
+
+        
 
         <!-- Recuperando o conteúdo do array $tecnologia definido em "recursos.php" e criando uma lista com foreach -->
         <ul>
@@ -36,6 +40,8 @@
 
 
         <!-- Chamando a função VerificaIdade criara em "recursos.php" para retornar se é maior ou menor -->
+
+        <p>O aluno Chapolin Colorado tem 25 anos e é: <?verificaIdade(25)?> de idade</p>
         
         <!-- 4ª Digitação (Aqui) -->
 
