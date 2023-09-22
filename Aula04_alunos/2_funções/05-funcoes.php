@@ -16,8 +16,13 @@
 
         <!-- Função Dados do autor -->
         <?php
-
+        function dadosAutor (){
+            echo "<div>"
+            echo "<p>Mattia Binotto</p>";
+            echo "<p>mattia.binotto@ferrari.f1</p>";
+            echo "</div>"
             // 1ª Digitação (Aqui)
+        }
 
         ?>
 
@@ -42,7 +47,10 @@
 
         ?>
     
-            <!-- 2ª Digitação (Aqui) -->
+            <p>Estamos no curso de <?=dadosCurso?></p>
+            <p><?=dadosCurso?> é ministrado no SENAI</p>
+            
+
 
         <hr>
         
@@ -51,7 +59,13 @@
         <!-- Função Soma -->
         <?php
 
-            // 3ª Digitação (Aqui)
+         // O exemplo abaixo permite que o 3° valor não seja declarado
+         function soma ($valor1,$valor2,$valor3=0) {
+
+            $total = $valor1 + $valor2 + $valor3;
+            return $total;
+            }
+
 
         ?>
     
@@ -121,6 +135,11 @@
             // float: valores numéricos com casa decimal
             // int: valor numérico inteiro
             // string: caracteres
+
+            function calculaMedia (float $n1, float $n2): float {
+                $media = ($n1 + $n2)/2;
+                return $media;         
+             }
 
 
             // 5ª Digitação (Aqui)

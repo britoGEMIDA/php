@@ -51,8 +51,15 @@
         <article>
             <h2 class="destaque">Conteúdo adicional</h2>
             <!-- No caso de erros o required para tudo e o include não -->
+
+            <h2 class="destaque">Conteúdo adicional</h2>
+            <!-- No caso de erros o required para td e o include não -->
+
+            <?php include "Textos.php"?>
             
             <!-- 5ª Digitação (Aqui) -->
+
+            
 
         </article>
         
